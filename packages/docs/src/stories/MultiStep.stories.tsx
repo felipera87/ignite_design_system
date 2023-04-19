@@ -32,5 +32,3 @@ export const Full: StoryObj<MultiStepProps> = {
     currentStep: 4,
   },
 }
-
-MultiStep.displayName = 'MultiStep'
