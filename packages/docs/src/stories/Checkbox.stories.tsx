@@ -4,6 +4,7 @@ import { Box, Text, Checkbox, CheckboxProps } from '@ignite-ui/react'
 export default {
   title: 'Form/Checkbox',
   component: Checkbox,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {
@@ -21,3 +22,5 @@ export default {
 } as Meta<CheckboxProps>
 
 export const Primary: StoryObj<CheckboxProps> = {}
+
+Checkbox.displayName = 'Checkbox'

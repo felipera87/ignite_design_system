@@ -4,6 +4,7 @@ import { Avatar, AvatarProps } from '@ignite-ui/react'
 export default {
   title: 'Data display/Avatar',
   component: Avatar,
+  tags: ['autodocs'],
   args: {
     src: 'https://github.com/felipera87.png',
     alt: 'Felipe Reis',
@@ -17,3 +18,5 @@ export const WithFallback: StoryObj<AvatarProps> = {
     src: undefined,
   },
 }
+
+Avatar.displayName = 'Avatar'

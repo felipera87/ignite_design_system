@@ -4,6 +4,7 @@ import { Box, Text, TextArea, TextAreaProps } from '@ignite-ui/react'
 export default {
   title: 'Form/Text Area',
   component: TextArea,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {
@@ -31,3 +32,5 @@ export const Disabled: StoryObj<TextAreaProps> = {
     disabled: true,
   },
 }
+
+TextArea.displayName = 'TextArea'
