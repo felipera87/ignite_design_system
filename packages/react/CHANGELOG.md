@@ -1,5 +1,11 @@
 # @felipe_ignite_ui/react
 
+## 2.1.2
+
+### Patch Changes
+
+- Fix type of TextInput
+
 ## 2.1.1
 
 ### Patch Changes
